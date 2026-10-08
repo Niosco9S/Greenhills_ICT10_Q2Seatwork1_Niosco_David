@@ -1,0 +1,91 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #222;
+    padding: 30px 15px;
+}
+
+
+.main-card {
+    max-width: 690px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.country-form-box {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#country {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 12px 15px;
+}
+
+#country:focus {
+    border-color: #999;
+    box-shadow: none;
+    outline: 2px solid #ddd;
+}
+
+.nickname-button {
+    padding: 10px 24px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+.nickname-button:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+.result-box {
+    max-width: 480px;
+    margin: 25px auto 0;
+    background-color: #eeeeee;
+    border-radius: 6px;
+    min-height: 70px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.result-box h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+
+.nickname {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
